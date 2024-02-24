@@ -1,1 +1,6 @@
-
+The dashboard shows that the gaming company is doing well and that its sales are growing. The company is particularly strong in the Sports and Shooter genres, and it sells its games primarily on PlayStation and Xbox consoles.It is a power BI dashboard that shows the sales of a gaming company over the past year. The dashboard is divided into several sections:    
+Total Sales: This section shows the total sales of the company for the year, which is 8.82 billion dollars. It also breaks down the sales by region, with North America accounting for the largest share (49.15%), followed by Europe (27.33%), Japan (14.57%), and Others (8.95%).
+Sales by Year: This section shows a line graph of the company's sales over the past five years. The sales have been increasing steadily, from 500 million dollars in 2018 to 8.82 billion dollars in 2022.
+Sales by Genre: This section shows a pie chart of the company's sales by genre. The largest genre is Sports (20.60%), followed by Shooter (17.07%), Role-Playing (16.33%), and Platform (14.59%).
+Sales by Platform: This section shows a bar chart of the company's sales by platform. The largest platform is PlayStation (42.38%), followed by Xbox (32.09%), Nintendo (15.15%), and PC (10.38%).
+Sales by Publisher: This section shows a bar chart of the company's sales by publisher. The largest publisher is Electronic Arts (24.14%), followed by Activision (18.82%), Sony Computer Entertainment (14.79%), and Ubisoft (12.05%).
