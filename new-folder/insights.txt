@@ -1,0 +1,99 @@
+
+
+1. **Overall Inventory Overview:**  
+   - **Question:** Total inventory koto? (Total Current Stock)  
+   - **Insight:** KPI cards diye total stock, average stock, aar total products count dekhte paro.  
+   - **Visual:** KPI cards, donut/bar chart by category.
+
+2. **Time Series Analysis:**  
+   - **Question:** Inventory levels kibhabe time-er sathe change hocche?  
+   - **Insight:** Daily/Monthly trend analysis kore seasonality ba sudden changes identify kora.  
+   - **Visual:** Line chart with Date axis, slicers for month/year.
+
+3. **Product Performance & Stock Levels:**  
+   - **Question:** Kon product gulor current stock beshi/kom?  
+   - **Insight:** Kon product stock reorder level er niche ache, ar kon product er stock consistently high ache.  
+
+   - **Visual:** Bar chart comparing Current_Stock vs. Reorder_Level per product.
+
+4. **Low Stock / Reorder Analysis:**  
+   - **Question:** Koto product reorder er dorkar?  
+   - **Insight:** Low stock (current_stock < reorder_level) product count, product category wise low stock distribution.  
+   - **Visual:** Table with conditional formatting, bar chart highlighting low-stock items.
+
+5. **Supplier Performance:**  
+   - **Question:** Kon supplier er product gulo beshi low-stock hoy?  
+   - **Insight:** Supplier-wise stock distribution, supplier jara consistently low stock er product supply kore tar analysis.  
+   - **Visual:** Pie chart or bar chart grouping by Supplier.
+
+6. **Warehouse Distribution:**  
+   - **Question:** Kon warehouse e koto inventory ache?  
+   - **Insight:** Warehouse wise inventory allocation aar performance, kon warehouse er stock variance beshi.  
+   - **Visual:** Bar chart or tree map, interactive slicer by Warehouse.
+
+7. **Category Breakdown:**  
+   - **Question:** Electronics, Furniture, aar Stationery category te inventory distribution kemon?  
+   - **Insight:** Category wise stock analysis, jekhane Electronics dominate korte pare ba kono category te stock shortage thakte pare.  
+   - **Visual:** Stacked bar chart or donut chart by Category.
+
+8. **Variance & Anomaly Detection:**  
+   - **Question:** Kon product er stock level onek variation dekhachhe?  
+   - **Insight:** Outliers ba anomalies detect kora jate unexpected fluctuations identify kora jay.  
+   - **Visual:** Box plot or scatter plot.
+
+9. **Trend Comparison:**  
+   - **Question:** Time series e current stock aar reorder level er trend ek sathe kemon?  
+   - **Insight:** Dual-axis chart e dekhao je kon month e reorder er gap beshi chhilo, jate proactive steps nite paro.  
+   - **Visual:** Dual-axis line chart with Current_Stock aar Reorder_Level.
+
+10. **Inventory Efficiency Metrics (Advanced):**  
+    - **Question:** Kon product category te inventory management efficient? (jodi aro sales data thake)  
+    - **Insight:** Inventory turnover ratio, stock to reorder ratio calculate kore efficiency measure kora jay.  
+    - **Visual:** KPI cards, gauges, aar custom DAX calculations.
+
+---
+
+**Additional Interactivity Suggestions:**  
+- **Slicers/Filters:** Date, Product, Category, Supplier, Warehouse diye dashboard ke interactive koro.  
+- **Drill-down Features:** Product category theke specific product details e drill down korar option dao.  
+- **Tooltips:** Hover korle detailed metrics ba insights show korar jonno tooltips add koro.
+
+Ei question/insights gulo upor base kore tumi dashboard design korle, user der real-time inventory trends, potential stock issues, aar supplier/warehouse performance niye clear picture pawa jabe. Happy dashboard designing!
+
+
+
+
+
+
+##################
+Key Insights from the Supply Chain Dashboard
+
+1.Overall Inventory Overview:
+Track total inventory, average stock, and product count using KPI cards and visualizations.
+
+2.Time Series Analysis:
+Identify seasonality and sudden inventory changes through daily/monthly trends.
+
+3.Product Performance & Stock Levels:
+Detect products with low stock or consistently high inventory for better stock management.
+
+4.Low Stock / Reorder Analysis:
+Highlight products below reorder level to ensure timely restocking.
+
+5.Supplier Performance:
+Analyze which suppliers frequently have low-stock products to assess reliability.
+
+6.Warehouse Distribution:
+Monitor inventory allocation across warehouses and identify stock variance.
+
+7.Category Breakdown:
+Evaluate inventory distribution by category (e.g., Electronics, Furniture) to spot imbalances.
+
+8.Variance & Anomaly Detection:
+Identify unexpected stock fluctuations and anomalies for proactive decision-making.
+
+9.Trend Comparison:
+Compare current stock vs. reorder level trends to optimize inventory planning.
+
+10.Inventory Efficiency Metrics (Advanced):
+Measure inventory turnover and stock efficiency if sales data is available.
