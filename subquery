@@ -1,0 +1,49 @@
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50),
+    salary INT
+);
+
+INSERT INTO employees (id, name, department, salary) VALUES
+(1, 'Ahsan', 'HR', 40000),
+(2, 'Rima', 'IT', 60000),
+(3, 'Anik', 'Finance', 50000),
+(4, 'Tania', 'IT', 70000),
+(5, 'Nabil', 'HR', 30000);
+
+select * from employees;
+
+
+#Find those employees whose salary is higher than the average salary of the IT department.
+select name,department from employees
+where salary>(select avg(salary) from employees where department="IT");
+
+#Show each employee's name, salary, and the company's average salary.
+select name,salary,(select avg(salary) as averagesalary from employees)
+from employees;
+
+#Find the average salary of each department and show the departments whose avg salary is more than 50,000
+select department,avg_salary 
+from (select department, avg(salary) as avg_salary from employees group by department) as dept_avg
+where avg_salary>50000;
+
+#Find the names of those employees whose salary is equal to the highest salary.
+select name from employees
+where salary = (select max(salary) from employees) ;
+
+
+#Show the difference between each employee's name, salary, and minimum salary.
+select name,salary,(salary-(select min(salary) from employees)) as min_salary from employees;
+
+
+#In each department, those whose salary is higher than the average for that department — just show their names.
+WITH dept_avg AS (
+    SELECT department, AVG(salary) AS avg_salary
+    FROM employees
+    GROUP BY department
+)
+SELECT e.name
+FROM employees e
+JOIN dept_avg d ON e.department = d.department
+WHERE e.salary > d.avg_salary;
